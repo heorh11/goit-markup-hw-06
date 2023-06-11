@@ -396,6 +396,23 @@
             </li>
           </ul>
         </div>
+
+        <div class="subscribe-container">
+          <p class="media-text">Subscribe</p>
+          <form action=" " class="footer-form form">
+            <div class="form-field">
+              <label class="footer-label">
+                <input type="email" placeholder="E-mail" class="footer-input" />
+              </label>
+            </div>
+            <button type="submit" class="footer-form-button">
+              Subscribe
+              <svg width="24" height="20" class="svg-fill plane-svg">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -405,6 +422,44 @@
             <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
           </svg>
         </button>
+        <form name="feedback">
+          <div role="group">
+            <p class="form-theme">
+              Leave your contacts and we will call you back
+            </p>
+            <div class="modal-form-field">
+              <label for="name">Name</label>
+              <input type="text" id="name" />
+            </div>
+            <div class="modal-form-field">
+              <label for="phone">Phone</label>
+              <input type="text" id="phone" />
+            </div>
+            <div class="modal-form-field">
+              <label for="email">Email</label>
+              <input type="text" id="email" />
+            </div>
+            <div class="modal-form-field">
+              <label for="comment">Comment</label>
+              <textarea
+                name="comment"
+                id="comment"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+
+            <div class="policy">
+              <input type="checkbox" id="policy" name="privacy-policy" />
+              <label for=" policy"
+                >I accept the terms and conditions of the
+                <a href="">Privacy Policy</a>
+              </label>
+            </div>
+
+            <button type="submit" class="modal-form-button button">Send</button>
+          </div>
+        </form>
       </div>
     </div>
     <script src="./modal.js"></script>
