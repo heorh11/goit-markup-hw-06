@@ -624,6 +624,7 @@ body {
 }
 
 .footer-form-button {
+    position: relative;
     display: flex;
     font-family: 'Roboto';
     font-style: normal;
@@ -631,17 +632,25 @@ body {
     font-size: 16px;
     line-height: 1.5;
     border: none;
+    text-align: center;
     justify-content: center;
     align-items: center;
-    text-align: center;
     letter-spacing: 0.04em;
     width: 165px;
     height: 40px;
     background-color: var(--primary-brand);
     color: var(--white-bg);
     border-radius: 4px;
-    gap: 16px;
+    padding-left: 24px;
+    padding-right: auto;
 
+}
+
+.plane-svg {
+    position: absolute;
+    top: 50%;
+    right: 24px;
+    transform: translateY(-50%)
 }
 
 
@@ -853,6 +862,10 @@ img {
 
 }
 
+.form-container {
+    width: 360px;
+}
+
 .form-theme {
     margin-bottom: 16px;
     font-family: 'Roboto';
@@ -921,4 +934,6 @@ img {
     background-color: var(--primary-brand);
     color: var(--white-bg);
     border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
 }
