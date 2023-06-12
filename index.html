@@ -399,7 +399,7 @@
 
         <div class="subscribe-container">
           <p class="media-text">Subscribe</p>
-          <form action=" " class="footer-form form">
+          <form class="footer-form form">
             <label class="footer-label">
               <input
                 type="email"
@@ -427,7 +427,7 @@
         </button>
         <p class="form-theme">Lave your contacts and we will call you back</p>
         <form name="feedback">
-          <div  class="form-container"  >
+          <div class="form-container">
             <label for="user-name" class="name-label">Name</label>
             <div class="input-box">
               <input
@@ -443,11 +443,12 @@
           <div class="form-container">
             <label for="phone" class="name-label">Phone</label>
             <div class="input-box">
-              <input type="text" id="phone" name="user-name" class="name-input" /><svg
-                height="24"
-                width="18"
-                class="modal-form-icon"
-              >
+              <input
+                type="text"
+                id="phone"
+                name="user-name"
+                class="name-input"
+              /><svg height="24" width="18" class="modal-form-icon">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
@@ -455,49 +456,46 @@
           <div class="form-container">
             <label for="email" class="name-label">Email</label>
             <div class="input-box">
-              <input type="text" id="email" name="user-name" class="name-input" /><svg
-                height="24"
-                width="18"
-                class="modal-form-icon"
-              >
+              <input
+                type="text"
+                id="email"
+                name="user-name"
+                class="name-input"
+              /><svg height="24" width="18" class="modal-form-icon">
                 <use href="./images/icons.svg#icon-mail-1"></use>
               </svg>
             </div>
           </div>
-            <div class="coment-box">
-              <label for="user-comment" class="name-label">Comment</label>
-              <textarea
-                name="user-comment"
-                id="user-comment"
-                cols=" "
-                rows=" "
-                placeholder="Text input"
-                class="coment-input"
-              ></textarea>
-            </div>
+          <div class="coment-box">
+            <label for="user-comment" class="name-label">Comment</label>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              placeholder="Text input"
+              class="coment-input"
+            ></textarea>
+          </div>
 
-            <div class="policy">
-              <input
-                type="checkbox"
-                id="user-privacy"
-                name="user-privacy"
-                value="true"
-                class="checkbox"
-              />
-               <span class="custom-checkbox"
-                  ><svg heiht="8" width="10" class="checkbox-icon">
-                    <use href="./images/icons.svg#icon-checkbox"></use>
-                  </svg>
-                </span>
-              <label for="user-privacy" class="privacy-label"
-                >I accept the terms and conditions of the
-                <a class="privacy-policy" href="">Privacy Policy</a>
-               
-                </span>
-              </label>
-            </div>
+          <div class="policy">
+            <input
+              type="checkbox"
+              id="user-privacy"
+              name="user-privacy"
+              value="true"
+              class="checkbox"
+            />
+            <span class="custom-checkbox"
+              ><svg height="8" width="10" class="checkbox-icon">
+                <use href="./images/icons.svg#icon-checkbox"></use>
+              </svg>
+            </span>
+            <label for="user-privacy" class="privacy-label"
+              >I accept the terms and conditions of the
+              <a class="privacy-policy" href="">Privacy Policy</a>
+            </label>
+          </div>
 
-             <button type="submit" class="modal-form-button button">Send</button>
+          <button type="submit" class="modal-form-button button">Send</button>
         </form>
       </div>
     </div>
