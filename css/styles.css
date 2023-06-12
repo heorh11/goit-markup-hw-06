@@ -1030,7 +1030,7 @@ img {
     pointer-events: none;
 }
 
-.checkbox:checked+.privacy-label span {
+.checkbox:checked+.privacy-label .custom-checkbox {
     background-color: var(--pressed-state);
     border: none;
     fill: var(--light);
