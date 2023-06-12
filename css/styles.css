@@ -1028,6 +1028,7 @@ img {
     fill: transparent;
     pointer-events: none;
     display: inline-flex;
+    display: inline-flex;
 }
 
 .checkbox:checked+.privacy-label .custom-checkbox {
