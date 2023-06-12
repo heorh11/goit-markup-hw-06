@@ -1042,6 +1042,8 @@ img {
 
 .modal-form-button {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
     min-width: 169px;
     height: 56px;
     font-family: 'Roboto';
