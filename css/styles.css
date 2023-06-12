@@ -1013,7 +1013,7 @@ img {
 
 }
 
-.custom-checkbox {
+.privacy-label .custom-checkbox {
     position: absolute;
     left: 0;
     top: 50%;
