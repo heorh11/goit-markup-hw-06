@@ -990,11 +990,7 @@ img {
 
 .policy {
     margin-bottom: 24px;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    display: flex;
+
 
 }
 
@@ -1010,12 +1006,7 @@ img {
 
 }
 
-.checkbox {
-    width: 16px;
-    height: 16px;
-    appearance: none;
-
-}
+.checkbox {}
 
 /* position: absolute;
     left: 0;
@@ -1031,7 +1022,6 @@ img {
     align-items: center;
     justify-content: center;
     fill: transparent;
-    pointer-events: none;
     display: inline-flex;
 
 }
