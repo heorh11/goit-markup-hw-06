@@ -1021,7 +1021,7 @@ img {
     left: 0;
     top: 50%;
     transform: translateY(-50%); */
-.privacy-label.custom-checkbox {
+.custom-checkbox {
 
     width: 16px;
     height: 16px;
@@ -1036,7 +1036,7 @@ img {
 
 }
 
-.checkbox:checked+.privacy-label .custom-checkbox {
+.checkbox:checked+.custom-checkbox {
     background-color: var(--pressed-state);
     border: none;
     fill: var(--light);
