@@ -1036,7 +1036,7 @@ img {
 
 }
 
-.checkbox:checked+.custom-checkbox {
+.checkbox:checked+.privacy-label .custom-checkbox {
     background-color: var(--pressed-state);
     border: none;
     fill: var(--light);
