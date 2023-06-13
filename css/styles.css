@@ -1021,7 +1021,7 @@ img {
     left: 0;
     top: 50%;
     transform: translateY(-50%); */
-.custom-checkbox {
+.privacy-label.custom-checkbox {
 
     width: 16px;
     height: 16px;
