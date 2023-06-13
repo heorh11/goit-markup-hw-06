@@ -875,7 +875,7 @@ img {
 }
 
 .form-container {
-    width: 360px;
+    width: 100%;
     margin-bottom: 8px;
 
 }
@@ -991,6 +991,10 @@ img {
 .policy {
     margin-bottom: 24px;
     position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
 
 }
 
@@ -1000,7 +1004,7 @@ img {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--subtitle-text);
-    margin-left: 8px;
+
 
 
 
@@ -1013,11 +1017,11 @@ img {
 
 }
 
-.privacy-label .custom-checkbox {
-    position: absolute;
+.custom-checkbox {
+    /* position: absolute;
     left: 0;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-50%); */
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
